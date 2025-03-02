@@ -11,12 +11,12 @@
     <div class="row d-flex justify-content-center align-items-center vh-100 registration-form">
         <div class="col  p-5 col-bg">
             <h2 class="text-center text-white">Register Form</h2>
-            <form th:object="${loginModal}" enctype="multipart/form-data" th:action="@{/}">
+            <form th:object="${loginModal}" enctype="multipart/form-data" th:action="@{/login/data}">
             <div class="row" style="width:80%;margin:auto;">
                 <div class="col">
                     <div class="mt-2">
                         <p>Email or Mobile</p>
-                        <input class="form-control" style="margin-top:-2%">
+                        <input class="form-control" th:field="*{phone}"  style="margin-top:-2%">
                     </div>
                     <div class="mt-2">
                         <p>Password</p>

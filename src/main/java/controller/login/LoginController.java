@@ -16,11 +16,11 @@ import java.util.Queue;
 @RequestMapping("/login")
 public class LoginController {
 //    @Autowired
-//    private  LoginService loginService;
+//    private LoginService loginService;
 
-//   public  LoginController(LoginService loginService) {
-//       this.loginService = loginService;
-//   }
+//    public LoginController(LoginService loginService) {
+//        this.loginService = loginService;
+//    }
 
 
     @GetMapping("/")

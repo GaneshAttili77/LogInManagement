@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 @SpringBootApplication
 @EnableScheduling
-@MapperScan({"org.example"})
+@MapperScan({"mapper"})
 @ComponentScan(basePackages = "controller.login")
 public class Main {
     public static void main(String[] args) {

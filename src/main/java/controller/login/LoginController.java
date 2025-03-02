@@ -23,15 +23,12 @@ public class LoginController {
 //    }
 
 
-    @GetMapping("/")
-    public String getIndex(Model model, LoginModal loginModal){
-        System.out.println("Login Page");
-        model.addAttribute("loginModal", loginModal);
-      return  "login/signIn";
-    }
+
     @PostMapping("/data")
     public LoginModal getData(Model model, LoginModal loginModal){
-      return loginModal;
+
+
+      return "success";
 
     }
 

@@ -15,8 +15,8 @@ import java.util.Queue;
 @Controller
 @RequestMapping("/login")
 public class LoginController {
-    @Autowired
-    private  LoginService loginService;
+//    @Autowired
+//    private  LoginService loginService;
 
 //   public  LoginController(LoginService loginService) {
 //       this.loginService = loginService;
